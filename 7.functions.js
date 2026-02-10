@@ -3,7 +3,7 @@
 
 console.log('--- Function Declaration (hoisted) ---');
 console.log('call before declaration ->', add(2, 3)); // works because declarations are hoisted
-function add(x, y) {
+export function add(x, y) {
   return x + y;
 }
 
